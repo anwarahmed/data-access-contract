@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleA.DataAccess.Contract", "DoubleA.DataAccess.Contract\DoubleA.DataAccess.Contract.csproj", "{BA0175B5-7AB2-483F-9220-10632EF761F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleA.DataAccess.Contract", "DoubleA.DataAccess.Contract\DoubleA.DataAccess.Contract.csproj", "{EF54C9B9-902D-4FE4-83C8-2DBAFC0B8750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA0175B5-7AB2-483F-9220-10632EF761F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA0175B5-7AB2-483F-9220-10632EF761F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA0175B5-7AB2-483F-9220-10632EF761F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA0175B5-7AB2-483F-9220-10632EF761F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF54C9B9-902D-4FE4-83C8-2DBAFC0B8750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF54C9B9-902D-4FE4-83C8-2DBAFC0B8750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF54C9B9-902D-4FE4-83C8-2DBAFC0B8750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF54C9B9-902D-4FE4-83C8-2DBAFC0B8750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -20,6 +20,6 @@ Global
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$0.StandardHeader = $2
 		$0.VersionControlPolicy = $3
-		version = 1.0.0.0
+		version = 1.0.1.0
 	EndGlobalSection
 EndGlobal
