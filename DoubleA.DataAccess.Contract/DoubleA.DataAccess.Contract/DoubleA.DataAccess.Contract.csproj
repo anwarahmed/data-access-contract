@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>DoubleA.DataAccess.Contract</PackageId>
+        <Title>DoubleA.DataAccess.Contract</Title>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Owners>Anwar Ahmed</Owners>
+        <Authors>Anwar Ahmed</Authors>
+        <Description>Library containing simple interfaces for data access based on DoubleA.EntityModel</Description>
+        <ReleaseVersion>1.0.0.0</ReleaseVersion>
+        <PackageVersion>1.0.0.0</PackageVersion>
+        <PackageLicense>MIT</PackageLicense>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/anwarahmed/data-access-contract</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/anwarahmed/data-access-contract</RepositoryUrl>
+        <PackageTags>DoubleA, Data Access Contract</PackageTags>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DoubleA.EntityModel" Version="1.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Repositories\" />
+        <Folder Include="UnitOfWork\" />
+    </ItemGroup>
+</Project>
