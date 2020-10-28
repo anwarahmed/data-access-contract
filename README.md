@@ -9,5 +9,5 @@ This library provides simple interfaces to help with accessing data from a relat
   Inherits from **_IRepository_** and represents a simple repository for **_IKeyedEntity_**.
   
 ### Unit of Work
-- ### IUnitOfWork
+- #### IUnitOfWork
   Represents a basic unit-of-work manager that manages multiple repositories.
