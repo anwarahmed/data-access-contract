@@ -11,7 +11,7 @@ namespace DoubleA.DataAccess.Contract.Repositories
         /// <summary>
         /// Get a single entity by matching id
         /// </summary>
-        Task<TEntity> GetAsync(Guid id);
+        Task<TEntity?> GetAsync(Guid id);
 
         /// <summary>
         /// Get entities by multiple matching ids
