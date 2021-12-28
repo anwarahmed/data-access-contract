@@ -8,8 +8,8 @@
 		<Owners>Anwar Ahmed</Owners>
 		<Authors>Anwar Ahmed</Authors>
 		<Description>Library containing simple interfaces for data access based on DoubleA.EntityModel</Description>
-		<ReleaseVersion>1.0.2.1</ReleaseVersion>
-		<PackageVersion>1.0.2.1</PackageVersion>
+		<ReleaseVersion>1.0.2.2</ReleaseVersion>
+		<PackageVersion>1.0.2.2</PackageVersion>
 		<PackageLicense>MIT</PackageLicense>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
