@@ -31,7 +31,7 @@ namespace DoubleA.DataAccess.Contract.Repositories
         /// <summary>
         /// Create new entity
         /// </summary>
-        Task CreateAsync(TEntity newEntity);
+        Task<Guid> CreateAsync(TEntity newEntity);
 
         /// <summary>
         /// Update entity
